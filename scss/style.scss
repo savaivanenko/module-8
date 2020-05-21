@@ -59,7 +59,12 @@
   width: 320px;
   margin: 0 auto;
   text-align: center;
-  padding: 18px 5px;
+  padding: 18px 5px 135px;
+}
+.wrap-section{
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
 }
 header {
   background-color: #1a1915;
@@ -141,7 +146,6 @@ header {
   padding: 12px 0px;
   border-radius: 20px;
   display: inline-block;
-  margin-bottom: 120px;
   transition: 0.2s linear;
 }
 .header__link__partner:hover {
@@ -261,6 +265,10 @@ header {
 @media (min-width: 768px){  
   .wrap {
     width: 668px;
+    padding-bottom: 236px;
+  }
+  .wrap-section{
+    width: 668px;
   }
   nav {
     display: flex;
@@ -289,7 +297,6 @@ header {
   }
   .header__link__partner {
     width: 230px;
-    margin-bottom: 220px;
   }
   .span__block__tabl {
     display: block;
@@ -314,6 +321,9 @@ header {
 }
 @media (min-width: 960px){
   .wrap {
+    width: 940px;
+  }
+  .wrap-section{
     width: 940px;
   }
   .list__partners {
