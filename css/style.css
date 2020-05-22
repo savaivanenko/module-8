@@ -50,7 +50,7 @@
 
 header {
   background-color: #1a1915;
-  background-image: url(../images/banner-mob.png);
+  background-image: url(../images/banner/banner-mob.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -81,7 +81,6 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
-  text-align: center;
   text-decoration: none;
   cursor: pointer; }
 
@@ -104,13 +103,20 @@ header {
   border-radius: 20px;
   transition: 0.2s linear; }
 
-.head__btn:hover {
-  border: 2px solid white;
+.log__in:hover {
+  border: solid 2px white;
+  box-shadow: 0 0 0 2px #ff4e50 inset, 0 0 0 4px white inset; }
+
+.sign__up:hover {
+  box-shadow: 0 0 0 2px #ff4e50 inset, 0 0 0 4px white inset;
   outline: none;
   transition: 0.2s linear; }
 
 .head__btn:active {
   outline: none; }
+
+.sign__up {
+  border: 2px solid white; }
 
 .header__link__partner {
   width: 278px;
@@ -119,7 +125,6 @@ header {
   color: white;
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   background: #ff4e50;
   text-decoration: none;
   padding: 12px 0px;
@@ -138,7 +143,6 @@ header {
   color: #333333;
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   padding: 48px 0 14px; }
 
 .list__partners__item {
@@ -154,7 +158,6 @@ header {
     color: #333333;
     font-weight: bold;
     line-height: 1.2;
-    text-align: center;
     padding-bottom: 15px; }
   .list__partners__item h4::before {
     content: "";
@@ -203,7 +206,6 @@ header {
   color: #ff4e50;
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   border: solid 2px;
   text-decoration: none;
   padding: 12px 0px;
@@ -224,6 +226,9 @@ header {
   .tablet__section {
     padding: 0 64px; } }
 @media (min-width: 768px) {
+  header {
+    background-image: url(../images/banner/banner-tabl.png); }
+
   .wrap {
     width: 668px;
     padding-bottom: 236px; }
@@ -274,6 +279,9 @@ header {
     width: 190px;
     margin-bottom: 40px; } }
 @media (min-width: 960px) {
+  header {
+    background-image: url(../images/banner/banner-desktop.png); }
+
   .wrap {
     width: 940px; }
 
